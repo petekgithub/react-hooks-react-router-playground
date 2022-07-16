@@ -6,8 +6,6 @@ import Login from './Login'
 import Navbar from './Navbar'
 
 
-
-
 const App = () => {
 
   const [isLoggedIn, setIsLoggedIn] = useState(false);
