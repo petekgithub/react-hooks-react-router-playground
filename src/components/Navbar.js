@@ -7,7 +7,7 @@ const linkStyles = {
   width: "100px",
   padding: "12px",
   margin: "0 6px 6px",
-  background: "blue",
+  background: "pink",
   textDecoration: "none",
   color: "white",
 };
@@ -23,29 +23,12 @@ const Navbar = ({setIsLoggedIn}) => {
         to="/" 
         exact style={linkStyles}  
         activeStyle={{
-          background: "darkblue",
+          background: "green",
         }}
       >Home
       </NavLink>
 
-      <NavLink 
-        to="/" 
-        exact style={linkStyles}  
-        activeStyle={{
-          background: "darkblue",
-        }}
-      >About
-      </NavLink>
-
-      <NavLink 
-        to="/" 
-        exact style={linkStyles}  
-        activeStyle={{
-          background: "darkblue",
-        }}
-      >Login
-      </NavLink>
-
+     
     </div>
   )
 }
