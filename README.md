@@ -2,10 +2,10 @@
 
 ## Learning goals:
 
-- React router gives us control over how to navigate users aorund web applications.
+- React router gives us control over how to navigate users around web applications.
 - use the `useNavigate` hook and with `navigate`, I can effectively navigate the user to a related page.
 
 ## Resources
 
-- [React Router Hooks](https://v5.reactrouter.com/web/api/Hooks)
+- [React Router Hooks](https://reactrouter.com/docs/en/v6/getting-started/tutorial)
 - [Composing <Route> in React Router v6](https://gist.github.com/mjackson/d54b40a094277b7afdd6b81f51a0393f)
