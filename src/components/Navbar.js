@@ -15,6 +15,12 @@ const linkStyles = {
 
 const Navbar = ({setIsLoggedIn}) => {
 
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    setIsLoggedIn(false)
+    navigate("/login");
+  }
 
 
   return (
@@ -27,6 +33,21 @@ const Navbar = ({setIsLoggedIn}) => {
         }}
       >Home
       </NavLink>
+      <NavLink
+        to="/login"
+        exact style={linkStyles}  
+        activeStyle={{
+          background: "pink"
+        }}
+      >About</NavLink>
+      <NavLink
+        to="/login"
+        exact style={linkStyles}  
+        activeStyle={{
+          background: "yellow"
+      }}
+      >Login</NavLink>
+      <button onClick={handleLogout}>Logout</button>
 
      
     </div>

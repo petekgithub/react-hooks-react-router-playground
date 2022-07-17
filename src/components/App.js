@@ -11,15 +11,13 @@ const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   return (
-    <div className='App'>
+    <div>
         <Navbar setIsLoggedIn={setIsLoggedIn}/>
-        <Router>
             <Routes>
                 <Route path="/about" element={<About />} />
                 <Route path="/login" element={<Login setIsLoggedIn={setIsLoggedIn}/>} />
                 <Route path="/" element={<Home isLoggedIn={isLoggedIn} />} />
             </Routes>
-        </Router>
     </div>
   )
 }

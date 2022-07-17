@@ -29,7 +29,6 @@ const Login = ({setIsLoggedIn}) => {
   }
 
 
-
   return (
     <form onSubmit={submitHandler}>
       <h1>Login</h1>
