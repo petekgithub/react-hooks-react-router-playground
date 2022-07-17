@@ -10,5 +10,5 @@
 
 ## Resources
 
-- [React Router Hooks](https://reactrouter.com/docs/en/v6/getting-started/tutorial)
 - [Composing <Route> in React Router v6](https://gist.github.com/mjackson/d54b40a094277b7afdd6b81f51a0393f)
+- [React Router] https://reactrouter.com/docs/en/v6/getting-started/overview
