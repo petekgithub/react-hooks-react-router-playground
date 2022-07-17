@@ -1,9 +1,8 @@
 import React from 'react'
-import { Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate } from "react-router-dom";
 
 const Home = ({isLoggedIn}) => {
-
-  if(!isLoggedIn) <Navigate to="/login"/>;
+  if(!isLoggedIn)  <Route path="/login" element={<Navigate replace to="/login" />} />
 
   return (
     <div>

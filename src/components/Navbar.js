@@ -1,5 +1,14 @@
 import React from 'react'
-import { Link, useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
+
+const linkStyles = {
+  width: "100px",
+  padding: "12px",
+  margin: "0 6px 6px",
+  background: "green",
+  textDecoration: "none",
+  color: "white",
+};
 
 
 const Navbar = ({setIsLoggedIn}) => {
@@ -15,9 +24,9 @@ const Navbar = ({setIsLoggedIn}) => {
   return (
     <div>
     <nav> 
-      <Link  to="/" >Home</Link>
-      <Link to="/login">Login</Link>
-      <Link to="/about">About</Link>
+      <NavLink  to="/" exact style={linkStyles}>Home</NavLink>
+      <NavLink to="/login"  exact style={linkStyles}>Login</NavLink>
+      <NavLink to="/about"  exact style={linkStyles}>About</NavLink>
       <button onClick={handleLogout}>Logout</button>
 
     </nav>
