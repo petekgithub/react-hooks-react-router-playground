@@ -5,6 +5,9 @@
 - React router gives us control over how to navigate users around web applications.
 - use the `useNavigate` hook and with `navigate`, I can effectively navigate the user to a related page.
 
+** After logging in to the website, direct our user to the home page
+** After logging out of the website, direct our user to the login page
+
 ## Resources
 
 - [React Router Hooks](https://reactrouter.com/docs/en/v6/getting-started/tutorial)
